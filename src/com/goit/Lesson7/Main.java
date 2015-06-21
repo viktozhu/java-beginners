@@ -33,24 +33,24 @@ public class Main {
         System.out.println("Input array using comma delimiter");
         Scanner scanner  =new Scanner(System.in);
         String str = scanner.nextLine();
-        String[] sArr = str.split(",");
-        int[] iArr = new int[sArr.length]; //what other length could be?
-        for (int i=0; i<sArr.length; i++)
-            iArr[i] = Integer.valueOf(sArr[i]);
+        String[] sArray = str.split(",");
+        int[] iArray = new int[sArray.length]; //what other length could be?
+        for (int i=0; i<sArray.length; i++)
+            iArray[i] = Integer.valueOf(sArray[i]);
 
-        System.out.println(Arrays.toString(iArr));
+        System.out.println(Arrays.toString(iArray));
 
         // String builder
         String palindrome = "moom";
-        StringBuilder sb  = new StringBuilder(palindrome);
-        sb = sb.reverse();
-        System.out.println(palindrome.equals(sb.toString()));
+        StringBuilder builder  = new StringBuilder(palindrome);
+        builder = builder.reverse();
+        System.out.println(palindrome.equals(builder.toString()));
 
-        sb = sb.append("new ending");
-        sb = sb.delete(1, 2);
-        sb = sb.insert(2, "some sub string");
-        sb = sb.replace(2,3,"replace this part");
-        sb.toString();
+        builder = builder.append("new ending");
+        builder = builder.delete(1, 2);
+        builder = builder.insert(2, "some sub string");
+        builder = builder.replace(2,3,"replace this part");
+        builder.toString();
 
         //Caesar algorithm
         System.out.println("Enter string to be ciphered");

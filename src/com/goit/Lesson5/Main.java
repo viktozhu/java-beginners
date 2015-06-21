@@ -9,26 +9,26 @@ public class Main {
     public static final int SIZE = 256;
 
     public static void main(String[] args){
-        int[] iArr1 = new int[5];
-        int iArr2[] = new int[5];
+        int[] iArray1 = new int[5];
+        int iArray2[] = new int[5];
 
-        long[] lArr = new long[SIZE];
+        long[] lArray = new long[SIZE];
 
-        double[] dArr = {1.2,2.2,3.5};
-        boolean[] bArr = new boolean[]{true,true,false};
+        double[] dArray = {1.2,2.2,3.5};
+        boolean[] bArray = new boolean[]{true,true,false};
 
 // examples
-        float[] fArr = {(float) 1.0, (float) 2.0, (float) 3.0}; // because by default in java long and double (64bit)
-        fArr[0] = 0;
-        fArr[2] = fArr[1]+fArr[2];
+        float[] fArray = {(float) 1.0, (float) 2.0, (float) 3.0}; // because by default in java long and double (64bit)
+        fArray[0] = 0;
+        fArray[2] = fArray[1]+fArray[2];
 
 
 
 //print array
-        System.out.println(fArr); //show array address in memory
+        System.out.println(fArray); //show array address in memory
 
-        for (int i=0; i<fArr.length; i++){
-            System.out.print(fArr[i] + " ");
+        for (int i=0; i<fArray.length; i++){
+            System.out.print(fArray[i] + " ");
         }
         System.out.println();
 
@@ -54,11 +54,11 @@ public class Main {
         System.out.println("Sorted array:" + Arrays.toString(someArray));
 
 //Char array
-        char[] cArr = new char[SIZE];
-        for (int i=0; i<cArr.length; i++){
-            cArr[i] = (char) i;
+        char[] cArray = new char[SIZE];
+        for (int i=0; i<cArray.length; i++){
+            cArray[i] = (char) i;
         }
 
-        System.out.println("Char array:\n" + Arrays.toString(cArr));
+        System.out.println("Char array:\n" + Arrays.toString(cArray));
     }
 }

@@ -12,9 +12,9 @@ public class Main {
         System.out.print("Enter radius and pi: ");
         // based on system configuration enter 3.14 or 3,14
 
-        Scanner sc = new Scanner(System.in);
-        double r = sc.nextDouble();
-        double pi = sc.nextDouble();
+        Scanner scanner = new Scanner(System.in);
+        double r = scanner.nextDouble();
+        double pi = scanner.nextDouble();
 
         double area = pi*r*r;
         System.out.print("Area of circle is ");

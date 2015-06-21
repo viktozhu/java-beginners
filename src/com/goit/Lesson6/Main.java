@@ -34,30 +34,30 @@ public class Main {
         f = Float.valueOf(str);
 
 // operations with String. Concatenation
-        String s1 = "first string";
-        String s2 = " and second string";
+        String firstStr = "first string";
+        String secondStr = " and second string";
 
-        s1 += s2;
-        System.out.println("Concat string example: " + s1);
+        firstStr += secondStr;
+        System.out.println("Concat string example: " + firstStr);
 
-        s1 = "1";
-        s2 = " and 2";
-        s1 = s1.concat(s2);
-        System.out.println("Another concat string example: " + s1);
+        firstStr = "1";
+        secondStr = " and 2";
+        firstStr = firstStr.concat(secondStr);
+        System.out.println("Another concat string example: " + firstStr);
 
-        s1 = "1";
-        s2 = "1";
-        if (s1.equals(s2)){
+        firstStr = "1";
+        secondStr = "1";
+        if (firstStr.equals(secondStr)){
             System.out.println("Strings are equals");
         }
 
-        s1 = "ac";
-        s2 = "ab";
-        System.out.println(s1.compareTo(s2));
+        firstStr = "ac";
+        secondStr = "ab";
+        System.out.println(firstStr.compareTo(secondStr));
 
-        s1 = "a";
-        s2 = "A";
-        System.out.println(s1.compareTo(s2));
+        firstStr = "a";
+        secondStr = "A";
+        System.out.println(firstStr.compareTo(secondStr));
 
 //Palindrome
         String pal = "moom";
